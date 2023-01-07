@@ -1,0 +1,205 @@
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* first  */
+
+header{
+    position: fixed;
+    top: 0px;
+}
+.header {
+    width: 98vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+.img1 {
+    display: inline-block;
+    position: relative;
+    left: 1vw;
+}
+.img2 {
+    display: inline-block;
+    position: relative;
+    left: 3vw;
+}
+.search{
+    width: 500px;
+    height: 35px;
+}
+.img7 {
+    display: inline-block;
+    position: relative;
+    left: 8vw;
+}
+.img3 {
+    display: inline-block;
+    position: relative;
+    left: 9vw;
+    bottom: -2px;
+}
+.img4 {
+    display: inline-block;
+    position: relative;
+    left: 11vw;
+    top: 3px;
+}
+.img5 {
+    display: inline-block;
+    position: relative;
+    left: 13vw;
+    top: 3px;
+}
+.img6 {
+    display: inline-block;
+    position: relative;
+    left: 15vw;
+    top: 4px;
+}
+.img8 {
+    display: inline-block;
+    position: relative;
+    left: 15vw;
+    top: 4px;
+}
+
+/* first  */
+
+/* second  */
+
+.channel-info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-top: -10vh;
+}
+h4{
+    padding-left: 20px;
+    font-size: xx-large;
+}
+
+/* second  */
+
+/* third */
+
+.links{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-top: -5vh;
+}
+h5{
+    padding: 0 50px;
+    font-size: inherit;
+    color: dimgray;
+}
+.padding-left{
+    padding-left:110px;
+}
+h5:hover{
+    text-decoration: underline;
+    color: #030303;
+}
+
+/* third */
+
+/* forth */
+
+.upload-videos{
+    margin-top: -2vh;
+    padding-left: 7vw;
+    padding-top: 2vh;
+    background-color: gainsboro;
+}
+.uploads{
+    font-size: larger;
+    padding-bottom: 5vh;
+}
+p{
+    font-size: small;
+}
+.left1{
+    background: white;
+    /* border: 2px solid black; */
+    text-align: center;
+    position: fixed;
+    left: 1px;
+    width: 7vw;
+    height: 10vh;
+    bottom: 500px;
+}
+.left2{
+    background: white;
+    /* border: 2px solid black; */
+    text-align: center;
+    position: fixed;
+    height: 10vh;
+    width: 7vw;
+    bottom: 438px;
+    left: 1px;
+}
+.left3{
+    background: white;
+    /* border: 2px solid black; */
+    text-align: center;
+    position: fixed;
+    height: 10vh;
+    width: 7vw;
+    bottom: 376px;
+    left: 1px;
+}
+.left4{
+    background: white;
+    /* border: 2px solid black; */
+    text-align: center;
+    position: fixed;
+    height: 10vh;
+    width: 7vw;
+    bottom: 315px;
+    left: 1px;
+}
+.left5{
+    background: white;
+    /* border: 2px solid black; */
+    text-align: center;
+    position: fixed;
+    height: 10vh;
+    width: 7vw;
+    bottom: 253px;
+    left: 1px;
+}
+.left6{
+    background: white;
+    /* border: 2px solid black; */
+    text-align: center;
+    position: fixed;
+    height: 10vh;
+    width: 7vw;
+    bottom: 191px;
+    left: 1px;
+}
+.left1:hover{
+    background-color: #ebe8e8;
+}
+.left2:hover{
+    background-color: #ebe8e8;
+}
+.left3:hover{
+    background-color: #ebe8e8;
+}
+.left4:hover{
+    background-color: #ebe8e8;
+}
+.left5:hover{
+    background-color: #ebe8e8;
+}
+.left6:hover{
+    background-color: #ebe8e8;
+}
+
+/* forth */

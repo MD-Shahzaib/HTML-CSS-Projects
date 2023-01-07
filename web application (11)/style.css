@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header {
+    width: 100vw;
+    height: 10vh;
+}
+ul {
+    display: inline;
+}
+.img1 {
+    width: 15vw;
+    height: 10vh;
+}
+.img2 {
+    box-shadow: -0.1vw 0vw 0vw gainsboro;
+    position: absolute;
+    top: 2vh;
+    right: 25vw;
+    width: 4vw;
+    height: 6vh;
+}
+.search-bar{
+    box-shadow: 0.9vw 1vw 1vw rgb(105 101 101);
+    border: 1px solid gray;
+    width: 40vw;
+    height: 10vh;
+    margin: 0 auto;
+    position: absolute;
+    top: 40vh;
+    left: 14vw;
+    background-color: azure;
+    border-radius: 3%;
+}
+.btn{
+    background-color: #e148e0d9;
+    color: aliceblue;
+    width: 10vw;
+}
+
+.ad-1{
+    width: 100vw;
+    height: 50vh;
+}
+.first-ad{
+    width: 50vw;
+    height: 50vh;
+    position: relative;
+    left: 50%;
+}
+.content-1{
+    position: absolute;
+    top: 23vh;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 50vw;
+    height: 8vh;
+}
+.ad-2 >img{
+    width: 100vw;
+    height: 50vh;
+}
+
+.first-row{
+    width: 100vw;
+    height: 32vh;
+}
+.cities-pic-1{
+    background-size:cover ;
+    display: inline-block;
+}
+
+.second-row{
+    width: 100vw;
+    height: 32vh;
+}
+.cities-pic-2{
+    background-size:cover ;
+    display: inline-block;
+}
+
+.third-row{
+    width: 100vw;
+    height: 32vh;
+}
+.cities-pic-3{
+    background-size:cover ;
+    display: inline-block;
+}
+
+.ad-3>img{
+    width: 100vw;
+    height: 50vh;
+}
+.ad-4>img{
+    width: 100vw;
+    height: 50vh;
+}
+.caption-1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: x-large;
+}
+.mail-box-1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: medium;
+    position: absolute;
+    top: 85vh;
+    left: 10vw;
+    background-color: #f0f8fff5;
+    width: 40vw;
+    padding: 15px;
+    height: 40vh;
+}
+.mail-box-2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: medium;
+    position: relative;
+    top: -20vh;
+    left: 10vw;
+    background-color: #f0f8fff5;
+    width: 40vw;
+    padding: 15px;
+    height: 30vh;
+}
+h2{
+    background-color: #dc6890e0;
+    text-align: center;
+    width: 180px;
+    margin: 0 auto;
+}
+    footer {
+        color: black;
+        width: 80vw;
+        height: 12vh;
+    }
+    .foot{
+        padding: 1px 1px 1px 120px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+        font-size: x-large;
+    }

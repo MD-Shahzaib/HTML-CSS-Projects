@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(10, 10, 10); 
+    padding: 5px;
+}
+
+h3{
+    color: rgb(128, 144, 168);
+    background-color: rgb(30, 42, 48);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:left ;
+    padding: 15px;
+}
+
+/* tables */
+table{
+    border: 3px solid black;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: auto;
+}
+
+th,td{
+    /* border: 2px solid black; */
+    background-position: center;
+    text-align: center;
+}
+
+.black{
+    color: white;
+    background-color: black;
+}
+.grey{
+    color: black;
+    background-color: rgb(138, 212, 241);
+}
+/* tables */
+
+#main-div > header,main,footer{
+    border: 5px solid black;
+}
+
+.first{
+    background-color: rgb(7, 54, 92);
+    color: rgb(128, 144, 168);
+    text-align: center;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second{
+    background-color: rgba(84, 173, 228, 0.486);
+    padding: 15px;
+}
+
+.third{
+     background-color: rgba(84, 173, 228, 0.486);
+    padding: 15px;
+}
+
+.fourth,div{
+     background-color: rgba(84, 173, 228, 0.486);
+    padding: 15px;
+}
+
+.fifth{
+     background-color: rgba(84, 173, 228, 0.486);
+    padding: 15px;
+}
+
+.sixth{
+     background-color: rgba(84, 173, 228, 0.486);
+    padding: 15px;
+}
+
+.seventh{
+    background-color: rgb(7, 54, 92);
+    color: rgb(128, 144, 168);
+    padding: 15px;
+}
+.eight{
+    background-color: rgb(7, 54, 92);
+    color: rgb(128, 144, 168);
+    padding: 15px;
+}
