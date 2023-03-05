@@ -1,0 +1,858 @@
+/* -------------------------------------- Utility CSS -------------------------------------- */
+/* Flex */
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-start {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-center-x {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-col-center {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Flex */
+
+/* Font size */
+.f-size1 {
+    font-size: 2.8rem;
+}
+
+.f-size2 {
+    font-size: 1.2rem;
+}
+
+.f-size3 {
+    font-size: 0.8rem;
+}
+
+.f-size4 {
+    font-size: 0.7rem;
+}
+
+/* Font size */
+
+/* Background Color */
+.bg1 {
+    background-color: #e28600;
+}
+
+.bg2 {
+    background-color: aliceblue;
+}
+
+/* Background Color */
+/* -------------------------------------- Utility CSS -------------------------------------- */
+
+/* Top-Nav */
+.top-nav {
+    padding: 0.5rem 3rem;
+    background-color: black;
+}
+
+.top-nav-img {
+    width: 1.2rem;
+    margin: 0 0.5rem;
+}
+
+.top-nav-badge {
+    padding: 0.5rem;
+    border: 3px solid #c15d0f;
+    border-top: none;
+    border-radius: 0 0 0.5rem 0.5rem;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+.top-nav-box-img {
+    width: 2rem;
+}
+
+.top-nav-item1 {
+    padding: 0 1rem;
+    border-right: 2px solid aliceblue;
+}
+
+.top-nav-item2 {
+    padding-right: 8.4rem;
+}
+
+/* Top-Nav */
+
+/* Navbar */
+.navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    justify-content: flex-end;
+    padding-right: 10.5rem;
+}
+
+.navbar-brand {
+    margin-left: 2rem !important;
+}
+
+/* Navbar */
+
+/* Banner */
+.carousel-caption {
+    bottom: 8rem !important;
+}
+
+.banner-size {
+    height: 30rem;
+}
+
+.banner-btn {
+    padding: 0.5rem;
+    margin: 1.5rem;
+    border-radius: 5px;
+    border: 2px solid orange;
+    background-color: black;
+}
+
+.banner-form {
+    padding: 0.5rem;
+    background-color: #bec0c1a6;
+}
+
+/* Banner */
+
+/* Services */
+.service-heading {
+    margin: 1rem 0;
+}
+
+.service-items {
+    margin: 1rem 0;
+}
+
+.service-items-title {
+    margin: 0.3rem 0;
+}
+
+.service-container {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 90%);
+    padding: 1rem 3rem 5rem 3rem;
+}
+
+.service-item-img {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+}
+
+/* Services */
+
+/* Booking */
+.booking-container {
+    padding: 1rem 3rem;
+}
+
+.book-items {
+    width: 25%
+}
+
+.book-items-title {
+    margin: 0.5rem 0;
+}
+
+.book-img {
+    padding: 0.8rem;
+    width: 5.5rem;
+    border-radius: 50%;
+    border: 3px solid #c15d0f;
+}
+
+.book-left {
+    width: 60%;
+}
+
+.book-left-heading {
+    margin: 1rem 0;
+}
+
+.video {
+    padding: 0.8rem;
+    border-radius: 10px;
+    border: 3px solid #c15d0f;
+}
+
+/* Booking */
+
+/* Testimonials */
+.testimonials-container {
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 100%);
+}
+
+.test-box {
+    padding-right: 2rem;
+}
+
+.test-box-title {
+    margin: 0.5rem 0;
+}
+
+.test-left {
+    padding: 3rem 1rem 3rem 3rem;
+    background-color: #c0c4c6;
+}
+
+.test-right {
+    padding: 0 3rem 0 2rem;
+}
+
+.test-box-img {
+    padding: 0.5rem;
+    width: 7rem;
+    border: 2px solid orange;
+    border-radius: 50%;
+}
+
+.test-right-img {
+    padding: 0.5rem;
+    width: 8rem;
+    border: 2px solid orange;
+    border-radius: 50%;
+}
+
+/* Testimonials */
+
+/* Footer */
+.f-nav-link a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.f-nav-box {
+    margin: 0 3rem;
+    padding: 1rem 0;
+}
+
+.un-circle {
+    width: 2rem;
+    margin: 0 0.5rem;
+}
+
+.foot-icon {
+    padding: 0.25rem;
+    margin: 0 0.5rem;
+    width: 1.8rem;
+    border-radius: 50%;
+    border: 1px solid #818283;
+}
+
+.f-copyright {
+    border-top: 1px solid #dee2e6;
+    padding: 1rem 0;
+}
+
+/* Footer */
+
+/* Media Queries */
+@media screen and (min-width: 1280px) {
+
+    /* service */
+    .service-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service-items-box,
+    .service-heading {
+        width: 50rem;
+    }
+
+    /* service */
+    /* booking */
+    .booking-container {
+        justify-content: center;
+    }
+
+    .book-left-box {
+        justify-content: space-evenly;
+    }
+
+    .book-left {
+        width: 35rem;
+    }
+
+    .book-right {
+        padding: 0 2rem;
+    }
+
+    /* booking */
+    /* Testimonials */
+    .test-left {
+        width: 53%;
+        justify-content: flex-end;
+    }
+
+    .test-right {
+        width: 47%;
+        justify-content: flex-start;
+    }
+
+    .test-box {
+        width: 16rem;
+    }
+
+    /* Testimonials */
+}
+
+@media screen and (max-width: 820px) {
+
+    /* footer */
+    .f-nav-box {
+        flex-direction: column;
+    }
+
+    .f-nav-link {
+        margin: 8px 0;
+    }
+
+    /* footer */
+}
+
+@media screen and (max-width: 683px) {
+
+    /* top-nav */
+    .top-nav {
+        padding: 0.3rem 3rem;
+    }
+
+    .top-nav-item2 {
+        padding-right: 7rem;
+    }
+
+    .top-nav-img {
+        width: 1rem;
+    }
+
+    .f-size3 {
+        font-size: 0.6rem;
+    }
+
+    .top-nav-box-img {
+        width: 1.5rem;
+    }
+
+    /* top-nav */
+    /* navbar */
+    .navbar {
+        padding-top: 0.2rem !important;
+        padding-bottom: 0.2rem !important;
+    }
+
+    .navbar-brand {
+        font-size: 1rem !important;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        padding-right: 9.2rem;
+    }
+
+    .btn {
+        padding: 0.35rem 0.55rem !important;
+        font-size: 0.65rem !important;
+    }
+
+    /* navbar */
+    /* banner */
+    .f-size1 {
+        font-size: 2rem;
+    }
+
+    .carousel-caption {
+        bottom: 4rem !important;
+    }
+
+    .banner-size {
+        height: 20rem;
+    }
+
+    .banner-btn {
+        margin: 1rem;
+    }
+
+    .banner-form {
+        padding: 0.3rem;
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+        font-size: 0.65rem !important;
+    }
+
+    /* banner */
+    /* services */
+
+    h1 {
+        font-size: 1.5rem !important;
+    }
+
+    .service-item-img {
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .f-size2 {
+        font-size: 0.8rem;
+    }
+
+    .f-size4 {
+        font-size: 0.5rem;
+    }
+
+    /* services */
+    /* booking */
+    .booking-container {
+        padding: 0rem 3rem;
+    }
+
+    h2 {
+        font-size: 1.3rem !important;
+    }
+
+    h3 {
+        font-size: 1rem !important;
+    }
+
+    .book-img {
+        padding: 0.5rem;
+        width: 4rem;
+    }
+
+    .vid-img {
+        width: 10rem;
+    }
+
+    /* booking */
+    /* testimonials */
+    .test-box-img {
+        padding: 0.3rem;
+        width: 5rem;
+    }
+
+    .test-right-img {
+        padding: 0.3em;
+        width: 5.5rem;
+    }
+
+    h5 {
+        font-size: 0.8rem !important;
+    }
+
+    /* testimonials */
+    /* footer */
+    .foot-icon {
+        padding: 0.2rem;
+        margin: 0 0.3rem;
+        width: 1.5rem;
+    }
+
+    .un-circle {
+        width: 1.6rem;
+        margin: 0 0.2rem;
+    }
+
+    /* footer */
+}
+
+@media screen and (max-width: 512px) {
+
+    /* top-nav */
+    .top-nav-item1 {
+        padding: 0 0.5rem;
+        border-right: 1px solid aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top-nav-item2 {
+        padding-right: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .top-nav-img {
+        width: 0.7rem;
+    }
+
+    .f-size3 {
+        font-size: 0.4rem;
+    }
+
+    .top-nav-box-img {
+        width: 1rem;
+    }
+
+    .top-nav-badge {
+        padding: 0.3rem;
+        border: 1px solid #c15d0f;
+    }
+
+    /* top-nav */
+    /* navbar */
+    .navbar-brand {
+        font-size: 0.7rem !important;
+    }
+
+    .navbar {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    .btn {
+        padding: 0.2rem 0.25rem !important;
+        font-size: 0.5rem !important;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        padding-right: 7.3rem;
+    }
+
+    /* navbar */
+    /* bannner */
+    h1 {
+        font-size: 1.25rem !important;
+    }
+
+    .form-control {
+        padding: 0.26rem 0.45rem !important;
+    }
+
+    .banner-btn {
+        padding: 0.25rem;
+        margin: 0.5rem;
+        border: 1px solid orange;
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+        font-size: 0.5rem !important;
+    }
+
+    .banner-size {
+        height: 15rem;
+    }
+
+    .carousel-caption {
+        bottom: 3rem !important;
+    }
+
+    /* bannner */
+    /* service */
+    .service-heading {
+        margin: 0;
+        font-size: 0.9rem !important;
+    }
+
+    .service-items-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .service-items-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+
+    .service-item-img {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .f-size2 {
+        font-size: 0.6rem;
+    }
+
+    .f-size4 {
+        font-size: 0.35rem;
+    }
+
+    /* service */
+    /* booking */
+    .booking-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .book-left {
+        width: 80%;
+    }
+
+    .book-items {
+        width: 30%;
+    }
+
+    .book-img {
+        padding: 0.3rem;
+        width: 3rem;
+    }
+
+    h3 {
+        font-size: 0.75rem !important;
+    }
+
+    h2 {
+        font-size: 0.9rem !important;
+    }
+
+    /* booking */
+    /* testimonials */
+    .flex-center-x {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .test-left {
+        padding: 3rem 3rem 1rem 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .test-box {
+        padding-right: 0;
+    }
+
+    .test-box-img {
+        padding: 0.3rem;
+        width: 4rem;
+    }
+
+    .test-right {
+        padding: 0 3rem;
+    }
+
+    .test-right-img {
+        width: 4.5rem;
+    }
+
+    .comment-box {
+        padding: 1rem 0;
+    }
+
+    /* testimonials */
+    /* footer */
+
+    .f-nav-box {
+        padding: 0.5em 0;
+    }
+
+    .f-nav-link {
+        margin: 0;
+    }
+
+    .un-circle {
+        width: 1rem;
+    }
+
+    .foot-icon {
+        padding: 0.1rem;
+        width: 1rem;
+    }
+
+    .f-copyright {
+        padding: 0.5rem 0;
+    }
+
+    /* footer */
+
+}
+
+@media screen and (max-width: 342px) {
+
+    /* top-nav */
+    .top-nav {
+        padding: 0.3rem 1rem;
+    }
+
+    .top-nav-item2 {
+        padding-right: 3.5rem;
+    }
+
+    .top-nav-item1 {
+        padding: 0 0.3rem;
+    }
+
+    .f-size3 {
+        font-size: 0.3rem;
+    }
+
+    .top-nav-img {
+        width: 0.5rem;
+        margin: 0 0.2rem;
+    }
+
+    .top-nav-box-img {
+        width: 0.7rem;
+    }
+
+    /* top-nav */
+    /* navbar */
+    .navbar-brand {
+        font-size: 0.5rem !important;
+        margin-left: 0 !important;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        padding-right: 3.8rem;
+    }
+
+    /* navbar */
+    /* banner */
+    .btn {
+        padding: 0.1rem 0.1rem !important;
+        font-size: 0.3rem !important;
+        border-radius: 0.15rem !important;
+    }
+
+    .form-control {
+        padding: 0.1rem 0.2rem !important;
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+        font-size: 0.3rem !important;
+        border-radius: 0.15rem !important;
+    }
+
+    .banner-form {
+        padding: 0.2rem;
+    }
+
+    h1 {
+        font-size: 1rem !important;
+    }
+
+    .banner-size {
+        height: 10rem;
+    }
+
+    .carousel-caption {
+        bottom: 1rem !important;
+    }
+
+    /* banner */
+    /* services */
+    .service-items-row {
+        padding: 0 0.5rem;
+    }
+
+    .service-item-img {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .f-size2 {
+        font-size: 0.4rem;
+    }
+
+    .f-size4 {
+        font-size: 0.25rem;
+    }
+
+    .service-heading {
+        margin: 0;
+        font-size: 0.7rem !important;
+    }
+
+    h2 {
+        font-size: 0.7rem !important;
+    }
+
+    h3 {
+        font-size: 0.6rem !important;
+    }
+
+    h5 {
+        font-size: 0.5rem !important;
+    }
+
+    /* services */
+    /* booking */
+    .book-left {
+        width: 95%;
+    }
+
+    .book-img {
+        padding: 0.2rem;
+        width: 2.3rem;
+        border: 1px solid #c15d0f;
+    }
+
+    .video {
+        padding: 0.5rem;
+        border-radius: 5px;
+        border: 1px solid #C15D0F;
+    }
+
+    /* booking */
+    /* testimonials */
+    .test-right-img,
+    .test-box-img {
+        padding: 0.3rem;
+        width: 3rem;
+    }
+
+    /* testimonials */
+    /* footer */
+    .un-circle,
+    .foot-icon {
+        margin: 0 0.1rem;
+        width: 0.7rem;
+    }
+
+    /* footer */
+}
+
+/* Media Queries */

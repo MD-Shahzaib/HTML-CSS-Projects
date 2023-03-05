@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>EVENT MANAGEMENT</title>
+</head>
+
+<body class="bg1">
+
+    <!-- TOP-NAV -->
+    <div class="flex-end text-white top-nav">
+        <div class="top-nav-item1">
+            <img src="images/Top-Nav/envelope.png" class="top-nav-img" alt="envelope">
+            <span class="f-size3 top-nav-text">customercare@traveltraingle.com</span>
+        </div>
+        <div class="top-nav-item2">
+            <img src="images/Top-Nav/call.png" class="top-nav-img" alt="call">
+            <span class="f-size3 top-nav-text">111-222-333</span>
+        </div>
+        <div class="flex-col-center bg1 top-nav-badge">
+            <img src="images/Top-Nav/list-image.png" class="top-nav-box-img" alt="list">
+            <span class="f-size3 top-nav-text">List Your Services</span>
+            <span class="f-size3 top-nav-text">For FREE</span>
+        </div>
+    </div>
+    <!-- TOP-NAV -->
+
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">EVENT MANAGEMENT</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- Sign-In btn-->
+                <button type="button" class="btn btn-light mx-2" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                    Sign-In
+                </button>
+                <!-- Sign-Up btn-->
+                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                    Sign Up
+                </button>
+                <!-- Sign-In Modal -->
+                <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel1">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1"
+                                            aria-describedby="emailHelp">
+                                        <div id="emailHelp" class="form-text">We'll never share your email with anyone
+                                            else.</div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="exampleInputPassword1" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1">
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Sign-Up Modal-->
+                <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel2">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="inputEmail4" class="form-label">Email</label>
+                                        <input type="email" class="form-control" id="inputEmail4">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputPassword4" class="form-label">Password</label>
+                                        <input type="password" class="form-control" id="inputPassword4">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="inputAddress" class="form-label">Address</label>
+                                        <input type="text" class="form-control" id="inputAddress"
+                                            placeholder="1234 Main St">
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="inputAddress2" class="form-label">Address 2</label>
+                                        <input type="text" class="form-control" id="inputAddress2"
+                                            placeholder="Apartment, studio, or floor">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="inputCity" class="form-label">City</label>
+                                        <input type="text" class="form-control" id="inputCity">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <label for="inputState" class="form-label">State</label>
+                                        <select id="inputState" class="form-select">
+                                            <option selected>Choose...</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-2">
+                                        <label for="inputZip" class="form-label">Zip</label>
+                                        <input type="text" class="form-control" id="inputZip">
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                                            <label class="form-check-label" for="gridCheck">
+                                                Check me out
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary">Sign in</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVBAR -->
+
+
+    <!-- Banner-Section -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner" id="carousel-box">
+            <div class="carousel-item active">
+                <img src="images/banner/banner1.gif" class="d-block w-100 banner-size" alt="banner1">
+                <div class="carousel-caption flex-col-center">
+                    <h1 class="f-size1 banner-heading">Give your Events a Royal Look</h1>
+                    <button class="text-white banner-btn">See How it Works</button>
+                    <div class="flex-center banner-form">
+                        <input type="text" class="form-control mx-1" placeholder="Find Location"
+                            aria-label="First name">
+                        <input type="text" class="form-control mx-1" placeholder="Select services"
+                            aria-label="Last name">
+                        <button class="btn btn-light mx-1">Search</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/banner/banner2.gif" class="d-block w-100 banner-size" alt="banner1">
+                <div class="carousel-caption flex-col-center">
+                    <h1 class="f-size1 banner-heading">Give your Events a Royal Look</h1>
+                    <button class="text-white banner-btn">See How it Works</button>
+                    <div class="flex-center banner-form">
+                        <input type="text" class="form-control mx-1" placeholder="Find Location"
+                            aria-label="First name">
+                        <input type="text" class="form-control mx-1" placeholder="Select services"
+                            aria-label="Last name">
+                        <button class="btn btn-light mx-1">Search</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/banner/banner3.gif" class="d-block w-100 banner-size" alt="banner1">
+                <div class="carousel-caption flex-col-center">
+                    <h1 class="f-size1 banner-heading">Give your Events a Royal Look</h1>
+                    <button class="text-white banner-btn">See How it Works</button>
+                    <div class="flex-center banner-form">
+                        <input type="text" class="form-control mx-1" placeholder="Find Location"
+                            aria-label="First name">
+                        <input type="text" class="form-control mx-1" placeholder="Select services"
+                            aria-label="Last name">
+                        <button class="btn btn-light mx-1">Search</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Banner-Section -->
+
+
+    <!-- Service-Section -->
+    <div class="bg2 service-container">
+        <h1 class="text-center service-heading">Our Best Services For You</h1>
+        <div class="service-items-box">
+            <div class="flex-between service-items-row" id="cards-box1">
+                <div class="flex-col-center service-items">
+                    <img src="images/Services/p-halls.jpg" class="service-item-img" alt="items">
+                    <h4 class="f-size2 text-center service-items-title">PARTY HALLS</h4>
+                    <span class="f-size4 text-center service-items-desc">35 Events | 45 Service Providers</span>
+                </div>
+                <div class="flex-col-center service-items">
+                    <img src="images/Services/saloon.jfif" class="service-item-img" alt="items">
+                    <h4 class="f-size2 text-center service-items-title">SAlOONS</h4>
+                    <span class="f-size4 text-center service-items-desc">35 Events | 45 Service Providers</span>
+                </div>
+                <div class="flex-col-center service-items">
+                    <img src="images/Services/catering.jfif" class="service-item-img" alt="items">
+                    <h4 class="f-size2 text-center service-items-title">CATERING SERVICES</h4>
+                    <span class="f-size4 text-center service-items-desc">35 Events | 45 Service Providers</span>
+                </div>
+                <div class="flex-col-center service-items">
+                    <img src="images/Services/d-designers.jfif" class="service-item-img" alt="items">
+                    <h4 class="f-size2 text-center service-items-title">DRESS DESIGNERS</h4>
+                    <span class="f-size4 text-center service-items-desc">35 Events | 45 Service Providers</span>
+                </div>
+            </div>
+            <div class="flex-between service-items-row" id="cards-box2">
+                <div class="flex-col-center service-items">
+                    <img src="images/Services/e-manage.jfif" class="service-item-img" alt="items">
+                    <h4 class="f-size2 text-center service-items-title">EVENT ORGANIZERS</h4>
+                    <span class="f-size4 text-center service-items-desc">35 Events | 45 Service Providers</span>
+                </div>
+                <div class="flex-col-center service-items">
+                    <img src="images/Services/s-deco.jfif" class="service-item-img" alt="items">
+                    <h4 class="f-size2 text-center service-items-title">STAGE DECORATION</h4>
+                    <span class="f-size4 text-center service-items-desc">35 Events | 45 Service Providers</span>
+                </div>
+                <div class="flex-col-center service-items">
+                    <img src="images/Services/l-deco.jfif" class="service-item-img" alt="items">
+                    <h4 class="f-size2 text-center service-items-title">LIGHTING DECORATION</h4>
+                    <span class="f-size4 text-center service-items-desc">35 Events | 45 Service Providers</span>
+                </div>
+                <div class="flex-col-center service-items">
+                    <img src="images/Services/r-car.jpg" class="service-item-img" alt="items">
+                    <h4 class="f-size2 text-center service-items-title">RENT A CAR</h4>
+                    <span class="f-size4 text-center service-items-desc">35 Events | 45 Service Providers</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service-Section -->
+
+
+    <!-- Booking-Section -->
+    <div class="text-white flex-between booking-container">
+        <div class="book-left">
+            <h2 class="text-center book-left-heading">How Book Services ?</h2>
+            <div class="flex-between book-left-box">
+                <div class="flex-col-center book-items">
+                    <img src="images/booking/Magnifier.png" class="bg2 book-img" alt="items">
+                    <h4 class="text-center f-size2 book-items-title">Search Services</h4>
+                    <p class="text-center f-size4 book-items-desc">Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit.
+                        Nisi dolores
+                        eligendi.</p>
+                </div>
+                <div class="flex-col-center book-items">
+                    <img src="images/booking/dollar.png" class="bg2 book-img" alt="items">
+                    <h4 class="text-center f-size2 book-items-title">Request Quote</h4>
+                    <p class="text-center f-size4 book-items-desc">Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit.
+                        Nisi dolores
+                        eligendi.</p>
+                </div>
+                <div class="flex-col-center book-items">
+                    <img src="images/booking/checked.png" class="bg2 book-img" alt="items">
+                    <h4 class="text-center f-size2 book-items-title">Book a Service</h4>
+                    <p class="text-center f-size4 book-items-desc">Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit.
+                        Nisi dolores
+                        eligendi.</p>
+                </div>
+            </div>
+        </div>
+        <div class="flex-col-center book-right">
+            <h3>Watch Video</h3>
+            <div class="bg2 video">
+                <img src="images/booking/video.png" class="vid-img" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- Booking-Section -->
+
+
+    <!-- testimonials-Section -->
+    <div class="flex-center-x testimonials-container">
+        <div class="flex-start test-left">
+            <div class="flex-col-center test-box">
+                <img src="images/testimonials/group.png" class="bg2 test-box-img" alt="group">
+                <h3 class="test-box-title text-center">For Customers</h3>
+                <p class="f-size4 text-center test-box-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Beatae odit
+                    eum fuga
+                    pariatur minus
+                    consequatur fugiat porro. Recusandae eligendi cumque et labore tempore nihil repellat quam! Alias,
+                    quibusdam est expedita laboriosam ratione vel obcaecati esse.</p>
+                <p class="f-size4 text-center test-box-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A
+                    asperiores
+                    ratione
+                    incidunt modi, ipsam
+                    eum eveniet, qui non est voluptatum consequuntur labore, laboriosam dolores tenetur ea cupiditate?
+                    Laudantium inventore fugit, ab distinctio accusantium rerum unde odit! Officiis eos vero vel
+                    repellendus voluptates ipsam tenetur soluta labore obcaecati perferendis, excepturi quas.</p>
+            </div>
+            <div class="flex-col-center test-box">
+                <img src="images/testimonials/owner.png" class="bg2 test-box-img" alt="group">
+                <h3 class="test-box-title text-center">For Venue Owners</h3>
+                <p class="f-size4 text-center test-box-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Beatae odit
+                    eum fuga
+                    pariatur minus
+                    consequatur fugiat porro. Recusandae eligendi cumque et labore tempore nihil repellat quam! Alias,
+                    quibusdam est expedita laboriosam ratione vel obcaecati esse. Laudantium inventore fugit, ab
+                    distinctio accusantium rerum unde odit! Officiis eos vero vel repellendus voluptates ipsam tenetur
+                    soluta labore obcaecati perferendis, excepturi quas.</p>
+            </div>
+        </div>
+        <div class="flex-center bg2 test-right">
+            <div class="comment-box flex-col-center test-box">
+                <h2 class="text-center">Love in Comments</h2>
+                <img src="images/testimonials/female-skin.png" class="bg2 test-right-img" alt="female-skin">
+                <h5 class="test-box-title text-center">Neelam Muneer</h5>
+                &#8220;<p class="f-size4 text-center test-box-para">Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit.
+                    Deserunt
+                    esse
+                    distinctio consequuntur
+                    aperiam cum aliquam, minima illo sapiente vel dolor quo maxime est natus delectus iste voluptatem
+                    dolores expedita deleniti. Ratione veritatis in odit. Alias culpa corrupti harum, ducimus labore
+                    odit
+                    officiis sint nulla possimus non saepe repellat fuga? Quod, cum voluptate! Vel, nisi sapiente.</p>
+                &#8221;
+            </div>
+        </div>
+    </div>
+    <!-- testimonials-Section -->
+
+
+    <!-- Footer -->
+    <div class="bg-dark text-white footer-section">
+        <div class="flex-between f-nav-box">
+            <div class='f-nav-link'>
+                <span class="f-size3 foot-text">Connect with us on :</span>
+                <a href="/">
+                    <img src="images/footer/fb.png" class="un-circle" alt="fb">
+                </a>
+                <a href="/">
+                    <img src="images/footer/twitter.png" class="foot-icon" alt="twitter">
+                </a>
+                <a href="/">
+                    <img src="images/footer/insta.png" class="foot-icon" alt="insta">
+                </a>
+                <a href="/">
+                    <img src="images/footer/google.png" class="foot-icon" alt="google">
+                </a>
+                <a href="/">
+                    <img src="images/footer/pin.png" class="un-circle" alt="pin">
+                </a>
+            </div>
+            <div class='f-nav-link'>
+                <a href="/" class="f-size3 foot-text">
+                    <img src="images/footer/call.png" class="foot-icon" alt="call">
+                    111-222-333
+                </a>
+                <a href="/" class="f-size3 foot-text">
+                    <img src="images/footer/mail.png" class="foot-icon" alt="mail">
+                    customercare@traveltraingle.com
+                </a>
+            </div>
+        </div>
+        <span class="flex-center f-size3 f-copyright">© 2023 Muhammad Shahzaib, Inc. All rights
+            reserved.</span>
+    </div>
+    <!-- Footer -->
+
+    <script src="index.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

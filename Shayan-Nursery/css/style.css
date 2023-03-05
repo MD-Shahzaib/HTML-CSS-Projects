@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    background: rgba(0, 0, 0, 0.5) url(../images/header/bg\ img\ 2.jpg) no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+/* header  */
+
+header {
+    background-color: #39464e;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.logo {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.logo-caption {
+    font-weight: inherit;
+    font-size: 10px;
+    letter-spacing: 10px;
+}
+
+.flex-search-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.search {
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+}
+
+.search-input {
+    width: 35vw;
+    height: 2rem;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.search-icon {
+    position: relative;
+    top: 12px;
+    left: 5px;
+    filter: invert(100%);
+}
+
+.search-icon:hover {
+    filter: invert(30%);
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+}
+
+.nav ul li:hover {
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+}
+
+.nav ul a:visited {
+    color: black;
+}
+
+/* header  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* main */
+
+/* home */
+
+.item-1 {
+    font-family: 'Patua One', cursive;
+    text-align: center;
+    color: white;
+    padding: 6rem 5rem
+}
+
+.item-1 li {
+    padding: 1rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border: 2px solid #0d3b0d;
+    border-radius: 2rem;
+    font-weight: 600;
+    color: white;
+    background: none;
+}
+
+.btn-position {
+    position: relative;
+    background: #014d01;
+    top: 1rem;
+    padding: 0.5rem 1rem;
+    border: 2px solid #0d3b0d;
+    border-radius: 2rem;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-position:hover {
+    background: #079707;
+    color: white;
+    font-weight: 800;
+}
+
+.btn:hover {
+    background: #079707;
+    cursor: pointer;
+    color: white;
+    font-weight: 800;
+}
+
+.item-2 {
+    font-family: 'Patua One', cursive;
+    display: flex;
+    justify-content: center;
+    padding: 0 5rem;
+}
+
+.box {
+    background: #037a03cf;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin: 0 1rem;
+    padding: 0 1rem;
+    box-shadow: #393a3a 5px 5px 10px 0px;
+    border-radius: 1rem;
+}
+
+.box:hover {
+    background: #085508cf;
+}
+
+
+.box-img-icon {
+    position: relative;
+    bottom: 2rem;
+    width: 4rem;
+    background-color: #36de36b0;
+    border: 5px solid #0d3b0d;
+    border-radius: 3rem;
+    padding: 0.3rem;
+    cursor: pointer;
+}
+
+.box-img-icon:hover {
+    width: 5rem;
+}
+
+.box li {
+    padding: 0 0 1rem 0;
+}
+
+.box li h2 {
+    font-size: 1.2rem;
+}
+
+.box li p {
+    font-size: 0.9rem;
+}
+
+.item-3 {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 2rem;
+}
+
+.green {
+    color: #198b09f0;
+}
+
+.img-border {
+    border: 7px solid #0f650fed;
+}
+
+.paragraph li {
+    padding: 0.5rem;
+}
+
+.paragraph {
+    padding: 0 5rem 0 0;
+    font-family: 'Patua One', cursive;
+}
+
+/* home */
+
+
+/* shop */
+
+.second-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.shop-text {
+    margin: 1rem;
+}
+
+.shop-items {
+    background: #c8dae3;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    border-radius: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-big {
+    background: #122634;
+    /* border: 3px solid black; */
+    margin: 1rem;
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.text-sm {
+    background: #1179a5;
+    border: 3px solid black;
+    margin: 1rem;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    padding: 1rem;
+}
+
+.text-mid {
+    background: #1179a5;
+    border: 3px solid black;
+    margin: 1rem;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    padding: 1rem;
+}
+
+.shop-catogaries {
+    background: #2367ac;
+    border: 3px solid black;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.shop-btn {
+    padding: 0.5rem;
+    margin: 5px 0.5rem;
+    font-size: 20px;
+    font-weight: 600;
+    background: #032936;
+    border-radius: 10px;
+}
+
+.shop-btn:hover {
+    padding: 0.8rem;
+    background: #207f9e;
+}
+
+.shop-btn a {
+    color: aliceblue;
+}
+
+.shop-btn a:hover {
+    color: rgb(22, 27, 34);
+}
+
+/* cards */
+
+.cards-container {
+    box-shadow: 5px 5px 10px 5px rgb(83, 83, 83);
+    padding-bottom: 10px;
+    margin: 1rem;
+    overflow: hidden;
+    background: aliceblue;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.cards {
+    width: min-content;
+    font-family: cursive;
+    font-weight: 600;
+    opacity: 90%;
+}
+
+.cards:hover {
+    opacity: 100%;
+}
+
+.card-pic {
+    padding-bottom: 1rem;
+}
+
+.card-title {
+    padding-bottom: 1rem;
+    font-size: 25px;
+    text-align: center;
+}
+
+.card-info {
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 15px;
+}
+
+.card-price {
+    padding-bottom: 1rem;
+    text-align: center;
+    font-size: 18px;
+}
+
+.card-btn {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-btn button {
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 20px;
+    background-color: #042336;
+}
+
+.card-btn button:hover {
+    padding: 8px;
+}
+
+.card-btn button a {
+    color: #c1c1c1;
+}
+
+.card-btn button a:visited :link {
+    color: #c1c1c1;
+}
+
+.card-btn button a:hover {
+    color: #615f5f;
+}
+
+/* cards */
+
+/* shop */
+
+/* main */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+footer {
+    padding: 1rem 0;
+}
+
+.footer-content {
+    background-color: #39464e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 1rem 1rem;
+}
+
+.merged-content-1-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content1 {
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.foot-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.foot-logo-caption {
+    font-weight: inherit;
+    font-size: 8px;
+    letter-spacing: 8px;
+}
+
+.right {
+    padding-right: 1rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.content1 div a img {
+    width: 3rem;
+}
+
+.content2 {
+    border-left: 2px solid #d3d3d3;
+    padding: 1rem;
+    color: #c1c1c1;
+}
+
+.social-link-img {
+    width: 2rem;
+    filter: invert(1);
+    border-radius: 6px;
+}
+
+.social-link-img:hover {
+    opacity: 60%;
+    width: 2.4rem;
+
+}
+
+/* footer */
